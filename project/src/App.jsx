@@ -39,7 +39,7 @@ function App() {
         <div className="app-container">
             <div className="form-container">
                 <h1 className="title">WELCOME</h1>
-                <h2> entry management system</h2>
+                <h2> entrywq management system</h2>
 
                 {userData ? (
                     <div>

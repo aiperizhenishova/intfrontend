@@ -1,10 +1,8 @@
-import axios from 'axios'
-
-export const BASE_URL = 'https://jsonplaceholder.typicode.com'
+import axios from 'axios';
 
 export const axiosInstance = axios.create({
-    baseURL: BASE_URL,
+    baseURL: 'https://internshipnew-production.up.railway.app/',
     headers: {
         'Content-Type': 'application/json',
     },
-})
+});
